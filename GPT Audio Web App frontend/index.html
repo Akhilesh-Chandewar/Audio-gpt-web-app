@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GPT Audio Web App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container text-center">
+      <h1 class="text-center">GPT Audio Web App</h1>
+    </div>
+    <div class="container">
+      <div class="mb-3">
+        <label for="askQuery" class="form-label">Ask Your Query</label>
+        <input type="text" class="form-control" id="askQuery" disabled placeholder="Listening...">
+      </div>
+      <div class="mb-3">
+        <label for="botResponse" class="form-label">Bot Response</label>
+        <textarea class="form-control" id="botResponse" rows="3"></textarea>
+      </div>
+      <div class="mb-3">
+        <button type="button" class="btn btn-primary" id="submitQuery">Click Here for start mic</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
